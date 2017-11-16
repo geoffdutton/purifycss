@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "no-sync": ["off"],
+    "one-var": ["off"],
+    "no-unused-vars": ["off"]
+  }
+}

@@ -36,7 +36,7 @@ export const getAllWordsInSelector = selector => {
             skipNextWord = true
             continue
         }
-        if (/[a-z]/.test(letter)) {
+        if (/[a-z_-]/.test(letter)) {
             word += letter
         } else {
             addWord(words, word)
